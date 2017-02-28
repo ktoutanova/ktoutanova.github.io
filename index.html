@@ -1,1 +1,172 @@
-Hello World
+<HEAD><TITLE>Kristina Toutanova</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK href="style.css" type=text/css rel=stylesheet>
+</HEAD>
+
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+<BODY>
+
+
+<DIV id=top></DIV>
+<DIV id=wrapper2></DIV>
+<DIV id=wrapper>
+
+<!--<table align="center" width="600" cellpadding="0" border="0" class="border">
+<tr><td>-->
+
+
+<DIV id=headerwrap>
+<P><font size="5" color="6699cc"><b>Kristina Toutanova</b></font><br>
+Research Scientist, Google</a><br>
+kristout@company.com</a><br>
+
+<img alt="Kristina Toutanova" src="kristina4.jpg" width=200 align=right>
+
+
+I am a research scientist at Google, Seattle. I am a member of the
+<a href="http://research.google.com/teams/nlu/">natural language understanding</a>
+team. 
+
+
+Previously, I was part of the NLP teams at <a href="https://www.microsoft.com/en-us/research/group/natural-language-processing/">Microsoft Research</a> and <a href="http://nlp.stanford.edu">Stanford University</a>.
+
+<br>
+(<a href="cvToutanova2017.pdf">CV</a>) (<a href="https://scholar.google.com/citations?hl=en&user=9qY7NPEAAAAJ&view_op=list_works">Google Scholar</a>) 
+<br>
+
+<H2><SPAN class=title><a name="research">Recent Publications</a></SPAN></H2>
+
+<P><P>
+
+<div id="abscompress16_bib" style="display:none">
+  <blockquote>
+  <pre>
+@InProceedings{toutanova-EtAl:2016:EMNLP2016,
+  author    = {Toutanova, Kristina  and  Brockett, Chris  and  Tran, Ke M.  and  Amershi, Saleema},
+  title     = {A Dataset and Evaluation Metrics for Abstractive Compression of Sentences and Short Paragraphs},
+  booktitle = {Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing},
+  month     = {November},
+  year      = {2016},
+  address   = {Austin, Texas},
+  publisher = {Association for Computational Linguistics},
+  pages     = {340--350},
+  url       = {https://aclweb.org/anthology/D16-1033}
+}
+ </pre>
+  </blockquote>
+  </div>
+
+  <div id="abscompress16_abs" style="display:none">
+  <blockquote>
+  <pre>
+  We introduce a manually-created, multi-reference dataset for abstractive sentence and short paragraph compression. First, we examine
+  the impact of single- and multi-sentence level editing operations on human compression quality as found in this corpus. We observe that
+  substitution and rephrasing operations are more meaning preserving than other operations, and that compressing in context improves quality. 
+  Second, we systematically explore the correlations between automatic evaluation metrics and human judgments of meaning preservation
+  and grammaticality in the compression task, and analyze the impact of the linguistic units used and precision versus recall measures on
+  the quality of the metrics. Multi-reference evaluation metrics are shown to offer significant advantage over single reference-based metrics.
+  </pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/09/Sentence_Compression_final.pdf">A Dataset and Evaluation Metrics for Abstractive Compression of Sentences and Short Paragraphs</a><br>
+  Kristina Toutanova, Chris Brockett, Ke M. Tran, and Saleema Amershi, <b>EMNLP 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/abscompress16/abstract');" href="javascript:copy(abscompress16, abscompress16_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/abscompress16/bibtex');" href="javascript:copy(abscompress16, abscompress16_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="abscompress16"></div>
+  </li></ul>
+
+
+<div id="relpaths16_bib" style="display:none">
+  <blockquote>
+  <pre>
+ @InProceedings{toutanova-EtAl:2016:P16-1,
+  author    = {Toutanova, Kristina  and  Lin, Victoria  and  Yih, Wen-tau  and  Poon, Hoifung  and  Quirk, Chris},
+  title     = {Compositional Learning of Embeddings for Relation Paths in Knowledge Base and Text},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  month     = {August},
+  year      = {2016},
+  address   = {Berlin, Germany},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1434--1444},
+  url       = {http://www.aclweb.org/anthology/P16-1136}
+}
+ </pre>
+  </blockquote>
+  </div>
+
+  <div id="relpaths16_abs" style="display:none">
+  <blockquote>
+  <pre>
+Modeling relation paths has offered significant gains in embedding models for knowledge base (KB) completion. However,
+enumerating paths between two entities is very expensive, and existing approaches typically resort to approximation
+with a sampled subset. This problem is particularly acute when text is jointly modeled with KB relations and used to
+provide direct evidence for facts mentioned in it. In this paper, we propose the first exact dynamic programming algorithm
+which enables efficient incorporation of all relation paths of bounded length, while modeling both relation types
+and intermediate nodes in the compositional path representations. We conduct a theoretical analysis of the efficiency gain
+from the approach. Experiments on two datasets show that it addresses representational limitations in prior approaches and
+improves accuracy in KB completion.
+</pre>
+  </blockquote>
+  </div>
+
+  <ul>
+  <li><a href="http://aclweb.org/anthology/P/P16/P16-1136.pdf">Compositional Learning of Embeddings for Relation Paths in Knowledge Base and Text</a><br>
+  Kristina Toutanova, Victoria Lin, Wen-tau Yih, Hoifung Poon, and Chris Quirk, <b>ACL 2016</b><br>
+  [<a onClick="javascript:urchinTracker('/abscompress16/abstract');" href="javascript:copy(relpaths16, relpaths16_abs)">abstract</a>]&nbsp;&nbsp;
+  [<a onClick="javascript:urchinTracker('/abscompress16/bibtex');" href="javascript:copy(relpaths16, relpaths16_bib)">bibtex</a>]&nbsp;&nbsp;
+  <br>
+  <div id="relpaths16"></div>
+  </li></ul>
+
+  <ul>
+  <li><a href="http://aclweb.org/anthology/D15-1174">Representing Text for Joint Embedding of Text and Knowledge Bases</a><br>
+  Kristina Toutanova, Danqi Chen, Patrick Pantel, Hoifung Poon, Pallavi Choudhury and Michael Gamon, <b>EMNLP 2015</b><br>
+  <div id="reptextjoint15"></div>
+  </li></ul>
+
+  <ul>
+  <li><a href="http://aclweb.org/anthology/W/W15/W15-4007.pdf">Observed Versus Latent Features for Knowledge Base and Text Inference</a><br>
+  Kristina Toutanova and Danqi Chen, <b>CVSC 2015</b><br>
+  <div id="observedlatent15"></div>
+  </li></ul>
+
+  <ul>
+  <li><a href="https://www.researchgate.net/profile/Kristina_Toutanova/publication/270963280_Distant_supervision_for_cancer_pathway_extraction_from_text/links/55ea232008ae21d099c452dd.pdf">Distant Supervision for Cancer Pathway Extraction from Text</a><br>
+  Hoifung Poon, Kristina Toutanova and Chris Quirk, <b>PSB 2015</b><br>
+  <div id="dspcancer15"></div>
+  </li></ul>
+
+ <ul>
+  <li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/N15-1077.pdf">Grounded Semantic Parsing for Complex Knowledge Extraction</a><br>
+  Ankur P. Parikh, Hoifung Poon and Kristina Toutanova, <b>NAACL 2015</b><br>
+  <div id="dspcancer15"></div>
+  </li></ul>
+
+  <ul>
+  <li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/MTJ-final-Editor-v1.pdf">Survey of Data Selection Methods in Statistical Machine Translation</a><br>
+  Sauleh Eetemadi, William Lewis, Kristina Toutanova, and Hayder Radha, <b>Machine Translation Journal 2015</b><br>
+  <div id="reptextjoint15"></div>
+  </li></ul>
+
+ <H2><SPAN class=title><a name="research"><a href="https://scholar.google.com/citations?hl=en&user=9qY7NPEAAAAJ&view_op=list_works">Other Publications on Google Scholar</a></a></SPAN></H2>
+
+<!--</td></tr></table>-->
+
+</BODY></HTML>
